@@ -1,0 +1,27 @@
+
+<jnlp spec="1.0+" codebase="http://www.rcsb.org:80">
+    <information>
+        <title>RCSB File Downloader</title>
+        <vendor>RCSB PDB</vendor>
+        <homepage href="http://www.rcsb.org:80"/>
+        <description>Download files via Java Web Start</description>
+        <offline-allowed/>
+        <description kind="short">Download files via Java Web Start</description>
+        <icon kind="splash" href="/pdb/img/pdbws_splash.gif"/>
+        <shortcut online="false">
+            <desktop/>
+            <menu submenu="RCSB File Downloader"/>
+        </shortcut>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.8 1.7 1.6" initial-heap-size="64m" max-heap-size="512m"/>
+        <jar href="pdb/download/web_download/RCSB-Download-Applet.jar" main="true"/>
+    </resources>
+    <application-desc main-class="org.rcsb.Downloader">
+        <argument>/pdb/files/1G2R.pdb,/pdb/files/1MN8.pdb,/pdb/files/1ODV.pdb,/pdb/files/1PSR.pdb,/pdb/files/1R1P.pdb,/pdb/files/1R1Q.pdb,/pdb/files/1R1S.pdb,/pdb/files/1T1D.pdb,/pdb/files/1VKU.pdb,/pdb/files/2EKY.pdb,/pdb/files/2EPI.pdb,/pdb/files/2HLQ.pdb,/pdb/files/2HLR.pdb,/pdb/files/2NPT.pdb,/pdb/files/2O4T.pdb,/pdb/files/2Q73.pdb,/pdb/files/2QSW.pdb,/pdb/files/2REY.pdb,/pdb/files/2VPH.pdb,/pdb/files/2W7A.pdb,/pdb/files/2WOR.pdb,/pdb/files/2WOS.pdb,/pdb/files/2XRH.pdb,/pdb/files/2YXM.pdb,/pdb/files/3F2E.pdb,/pdb/files/3FE7.pdb,/pdb/files/3FEA.pdb,/pdb/files/3FOJ.pdb,/pdb/files/3GLA.pdb,/pdb/files/3I18.pdb,/pdb/files/3K3V.pdb,/pdb/files/3NS6.pdb,/pdb/files/3PO8.pdb,/pdb/files/3U15.pdb,/pdb/files/4DWN.pdb,/pdb/files/4ES1.pdb,/pdb/files/4ES2.pdb,/pdb/files/4ES3.pdb,/pdb/files/4F2F.pdb,/pdb/files/4G69.pdb,/pdb/files/4N1V.pdb,/pdb/files/4UNO.pdb,/pdb/files/4UZ3.pdb,/pdb/files/4X5M.pdb</argument>
+        <argument>http://www.rcsb.org:80</argument>
+    </application-desc>
+</jnlp>
